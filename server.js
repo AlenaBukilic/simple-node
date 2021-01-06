@@ -5,6 +5,7 @@ function sleep(ms) {
 async function main() {
   while(true) {
     console.log('Containers rule!');
+    console.log(`Priniting env var favorite food - ${process.env.FAVORITE_FOOD}`);
     await sleep(5000);
   }
 }
